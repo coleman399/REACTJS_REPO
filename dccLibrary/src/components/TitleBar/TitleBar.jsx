@@ -1,7 +1,7 @@
 import React from 'react';
 import './TitleBar.css'
 
-function TitleBar(props) {
+function TitleBar() {
     return (
         <div className="row row-space"> 
             <div className="col-md-12" style={{ padding: 0 }}>
