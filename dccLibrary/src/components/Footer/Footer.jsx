@@ -1,14 +1,12 @@
 import React from 'react';
 import './Footer.css'
 
-function Footer() {
-    return (
-        <div className="row row-space"> 
-            <div className="col-md-12">
-                <div className="footer"></div>
-            </div>
-        </div>
-    )
+const Footer = () => {
+    return (  
+        <footer className="footer">
+            <h4>Copyright © 2021</h4> 
+        </footer>
+    );
 }
 
 export default Footer;
